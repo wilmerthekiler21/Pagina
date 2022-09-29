@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: url("img/lluvia.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.main-hader{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Dosis', sans-serif;
+}
+
+.main-nav{
+    display: flex;
+
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    height: 90px;
+}
+ul{
+    display: flex;
+    margin-left: auto;
+    margin-right: 100px;
+}
+ul li a{
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 1.3rem;
+    color:black;
+    text-decoration: none;
+}
+.contenedor {
+    color: rgb(1, 5, 8);
+    background: rgb(17, 17, 31);
+    margin-top: 50px;
+    width:75%;
+    margin: auto;
+
+}
+nav{
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.Nan{
+    display: flex;
+    flex-wrap: wrap;
+}
+aside{
+    flex: 30%;
+    padding: 15px;
+    height: 10%;
+}
+aside img{
+    height: 410px;
+    position: relative;
+    top: 15px;
+}
+section{
+    flex: 60%;
+    padding: 30px;
+}
+.Padre{
+    background-color: rgba(128, 128, 128, 0.356);
+    text-align: center;
+    font-family: Arial;
+    margin: 2rem auto;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(5, 0, 0);
+}
+.h2_title{
+    font-size: 1em;
+}
